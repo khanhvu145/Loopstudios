@@ -1,0 +1,26 @@
+.about{
+    padding: 160px 0;
+    &__container{
+        position: relative;
+    }
+    &__content{
+        position: absolute;
+        width: 50%;
+        height: 80%;
+        top: 45%;
+        right: 0;
+        background-color: $white-color;
+        padding: 98px;
+    }
+    &__title{
+        font-size: 3.6rem;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+    &__text{
+        color: $gray-color;
+        font-size: 1.4rem;
+        margin-top: 32px;
+        line-height: 1.6;
+    }
+}

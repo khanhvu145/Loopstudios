@@ -1,0 +1,22 @@
+.nav__mobile{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $black-color;
+    z-index: 2;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform linear 0.2s, opacity linear 0.2s;
+    &-list{
+        margin-top: 96px;
+        padding-top: 80px;
+    }
+    &-link{
+        display: block;
+        color: $white-color;
+        font-size: 3.6rem;
+        padding: 24px 0;
+    }
+}

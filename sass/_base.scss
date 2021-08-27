@@ -1,0 +1,31 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: $primary-font;
+    font-size: 1.6rem;
+    line-height: 1;
+    color: $black-color;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@keyframes stretch{
+    from {
+        opacity: 0;
+        left: 50%;
+        right: 50%;
+    }
+    to {
+        opacity: 1;
+        left: 12px;
+        right: 12px;
+    }
+}
